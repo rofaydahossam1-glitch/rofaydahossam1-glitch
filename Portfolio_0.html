@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rofayda Hossam | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #E8E8E8;
+            background: 
+                radial-gradient(ellipse at top, #2A2A2A 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, #1A1A1A 0%, transparent 60%),
+                linear-gradient(160deg, #0D0D0D 0%, #161616 40%, #0F0F0F 100%);
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 80px 20px 50px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.03) 0%, transparent 100%);
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        h1 {
+            font-size: 2.8em;
+            font-weight: 300;
+            letter-spacing: 4px;
+            color: #F5F5F5;
+            margin: 0 0 10px;
+            text-shadow: 0 0 40px rgba(255,255,255,0.08);
+        }
+        h2 {
+            font-size: 1.6em;
+            font-weight: 400;
+            margin: 0 0 16px;
+            color: #FFFFFF;
+            letter-spacing: 1px;
+        }
+        header h2 {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin: 12px 0 20px;
+        }
+        header p {
+            color: #B0B0B0;
+            font-weight: 300;
+            margin: 6px 0;
+        }
+        section {
+            padding: 36px 40px;
+            margin: 28px auto;
+            border-radius: 12px;
+            max-width: 820px;
+            background: linear-gradient(145deg, #1E1E1E 0%, #181818 100%);
+            border: 1px solid rgba(255,255,255,0.07);
+            box-shadow: 
+                0 4px 24px rgba(0,0,0,0.4),
+                inset 0 1px 0 rgba(255,255,255,0.04);
+        }
+        section p {
+            color: #C8C8C8;
+            margin: 10px 0;
+        }
+        ul {
+            color: #C0C0C0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        a {
+            color: #A0A0A0;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            transition: color 0.25s ease, border-color 0.25s ease;
+        }
+        a:hover {
+            color: #FFFFFF;
+            border-bottom-color: rgba(255,255,255,0.6);
+        }
+        .case-study, .workflow {
+            background: linear-gradient(145deg, #242424 0%, #1C1C1C 100%);
+            margin-top: 0;
+            padding: 36px 40px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 
+                0 4px 20px rgba(0,0,0,0.35),
+                inset 0 1px 0 rgba(255,255,255,0.05);
+        }
+        .case-study h2, .workflow h2 {
+            color: #F0F0F0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 12px;
+            margin-bottom: 18px;
+        }
+        strong {
+            color: #E0E0E0;
+        }
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 40px;
+            background: linear-gradient(180deg, #141414 0%, #0A0A0A 100%);
+            border-top: 1px solid rgba(255,255,255,0.06);
+            position: relative;
+        }
+        footer h2 {
+            color: #F5F5F5;
+            letter-spacing: 2px;
+        }
+        footer p {
+            color: #A8A8A8;
+            margin: 8px 0;
+        }
+        footer a {
+            color: #D0D0D0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MACHINE LEARNING · AI ENGINEERING</h1>
+        <h2>Rofayda Hossam</h2>
+        <p>Prediction systems that move from data to action.</p>
+        <p>Industrial operations · Predictive maintenance · Healthcare risk</p>
+    </header>
+
+    <section>
+        <h2>THE THESIS</h2>
+        <p>Machine learning that keeps operations moving.</p>
+        <p>Helping industrial companies increase production efficiency and reduce downtime through predictive systems.</p>
+    </section>
+
+    <section class="workflow">
+        <h2>THE WORKFLOW</h2>
+        <p>From sensor signals to decisions teams can use.</p>
+        <ul>
+            <li>Explore and engineer: Understand the data, shape features, and make the signal trustworthy.</li>
+            <li>Train and evaluate: Build accurate predictive models and test them.</li>
+            <li>Deploy for use: User-friendly applications that operators can act on.</li>
+        </ul>
+    </section>
+
+    <section class="case-study">
+        <h2>CASE STUDY · PREDICTIVE MAINTENANCE</h2>
+        <p>Predictive maintenance turns breakdowns into lead time.</p>
+        <p>Industrial plants lose money when machinery fails without warning. Rofayda’s system assesses failure risk before breakdowns.</p>
+        <ul>
+            <li>Sense: Ensemble learning models for failure prediction.</li>
+            <li>Assess: Real-time risk assessment through Streamlit.</li>
+            <li>Act: Designed to reduce unplanned downtime and maintenance costs.</li>
+        </ul>
+    </section>
+
+    <section class="case-study">
+        <h2>CASE STUDY · HEALTHCARE</h2>
+        <p>Healthcare risk prediction brings discipline to human outcomes.</p>
+        <ul>
+            <li>Logistic Regression: Clear baseline for classification.</li>
+            <li>Decision Trees: Readable decision paths for examining risk.</li>
+            <li>Random Forest: Ensemble approach for robust comparison.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>THE TOOLKIT</h2>
+        <p>The toolkit is built for the full journey.</p>
+        <ul>
+            <li><strong>Languages:</strong> Python, C++</li>
+            <li><strong>Modeling:</strong> Scikit-Learn, LightGBM, CatBoost, XGBoost</li>
+            <li><strong>Data:</strong> Pandas, NumPy</li>
+            <li><strong>Deployment:</strong> Streamlit, Git/GitHub</li>
+            <li><strong>Core Focus:</strong> Predictive modeling, Machine learning pipelines</li>
+        </ul>
+    </section>
+
+    <footer>
+        <h2>NEXT BUILD</h2>
+        <p>Ready to build the next reliable prediction system.</p>
+        <p>B.Sc. in Computer Science, Ain Shams University, Cairo, Egypt</p>
+        <p><a href="https://linkedin.com/in/rofayda-hossam">LinkedIn</a> | Email: <a href="mailto:rofaydahossam1@gmail.com">rofaydahossam1@gmail.com</a></p>
+    </footer>
+</body>
+</html>
