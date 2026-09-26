@@ -25,7 +25,7 @@ I help industrial companies and businesses boost production efficiency and minim
 ### 1. Smart Manufacturing – Predictive Maintenance System
 * **Problem & Objective:** Industrial plants face heavy financial losses and operational delays due to unexpected machinery breakdowns. This project addresses this by predicting equipment failures before they occur, reducing downtime and maintenance costs.
 * **Key Impact:** Built an end-to-end predictive maintenance solution using ensemble learning algorithms and deployed an interactive web application using Streamlit that enables plant engineers to input sensor data and receive real-time failure risk assessments.
-* **Repository:** [View Project Code](https://github.com/rofaydahossam1-glitch) | [LinkedIn Post](https://lnkd.in/e97nSjhX)
+* **Repository:** [View Project Code](https://lnkd.in/e97nSjhX)
 
 ---
 
@@ -36,5 +36,5 @@ I help industrial companies and businesses boost production efficiency and minim
 ---
 
 ## Connect With Me
-- **LinkedIn:** [Rofayda Hossam](https://linkedin.com)
+- **LinkedIn:** [Rofayda Hossam](https://www.linkedin.com/in/rofayda-hossam)
 - **Email:** rofaydahossam1@gmail.com
